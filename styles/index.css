@@ -126,20 +126,12 @@ header {
 /* CATEGORIES-SECTION */
 .categories {
     background: #2e3267;
-<<<<<<< HEAD
     height: 20rem;
     padding-bottom: 20rem;
 }
 .categories h1 {
     line-height: 1;
     margin-bottom: 1.5rem;
-=======
-    height: 3rem;
-}
-.categories h1 {
-    line-height: 1;
-    margin-bottom: 3rem;
->>>>>>> 8a3c5d6b99414cbaafcb3e1aea1b5fa469ac4b2f
 }
 .categories__container {
     display: grid;
@@ -156,11 +148,7 @@ header {
 }
 .category {
     background: #1d1d7a;
-<<<<<<< HEAD
     padding: 1rem;
-=======
-    padding: 2rem;
->>>>>>> 8a3c5d6b99414cbaafcb3e1aea1b5fa469ac4b2f
     border-radius: 2rem;
     transition: all 400ms ease;
 }
@@ -181,11 +169,7 @@ header {
 }
 .category:hover {
     box-shadow: 0 3rem 3r3m rgba(0, 0, 3, 0.4);
-<<<<<<< HEAD
     /* z-index: 1; */
-=======
-    z-index: 1;
->>>>>>> 8a3c5d6b99414cbaafcb3e1aea1b5fa469ac4b2f
 }
 .category__icon {
     background: #6c63ff;
@@ -197,7 +181,6 @@ header {
 }
 .category h5 {
     font-size: 0.8rem;
-<<<<<<< HEAD
 }
 
 /* POPULAR____COURSES */
@@ -257,6 +240,3 @@ header {
 .faq.open p {
     display: block;
 }
-=======
-}
->>>>>>> 8a3c5d6b99414cbaafcb3e1aea1b5fa469ac4b2f
