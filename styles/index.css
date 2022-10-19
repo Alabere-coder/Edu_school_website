@@ -240,3 +240,41 @@ header {
 .faq.open p {
     display: block;
 }
+
+/* TESTIMONIALS */
+
+.testimonials__container {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.testimonial {
+    padding-top: 2rem;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+.testimonial__info {
+    text-align: center;
+}
+.testimonial__body {
+    background: #6c63ff;
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+.testimonial__body::before {
+    content: "";
+    display: block;
+    background: linear-gradient(135deg, transparent, #6c63ff, #6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 46%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
