@@ -517,7 +517,7 @@ footer ul li:hover {
         margin: 1rem auto;
     }
 
-    .footer__socials {
+    .footer__socials, footer {
         justify-content: center;
     }
 }
